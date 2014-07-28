@@ -29,14 +29,14 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 According to the documentation, the database was first owned by *the Department of Primary Industry and Fisheries, Tasmania*. In particular, *the Marine Resources Division* of *the Marine Reserach Laboratories - Taroona*. And it was donated to UC Irvine's Machine Learning Repository by Sam Waugh who was associated with *the Department of Computer Science* at *the University of Tasmania* in December 1995.
 
 It appears that the data was originally created for the following study:
-+Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone \(_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H._ _rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288)
+* Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone (_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H._ _rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288)
 
 
 ##### 3. Has your dataset been written about? What have others used it for?
 
 Referring again to the documentation, at least a couple of academic papers have been written using this dataset:
-*Sam Waugh (1995) "Extending and benchmarking Cascade-Correlation", PhD thesis, Computer Science Department, University of Tasmania.
-*David Clark, Zoltan Schreter, Anthony Adams "A Quantitative Comparison of Dystal and Backpropagation", submitted to the Australian Conference on Neural Networks (ACNN'96).
+* Sam Waugh (1995) "Extending and benchmarking Cascade-Correlation", PhD thesis, Computer Science Department, University of Tasmania.
+* David Clark, Zoltan Schreter, Anthony Adams "A Quantitative Comparison of Dystal and Backpropagation", submitted to the Australian Conference on Neural Networks (ACNN'96).
 
 Furthermore, the dataset has been used by many different individuals and organizations for exploring data science/data analysis concepts. The *Statistical Consulting Group* at the *San Diego State University* has written a [post](http://scg.sdsu.edu/linear-regression-in-r-abalone-dataset/) on performing linear regressions in R using this dataset.
 
