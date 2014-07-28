@@ -20,7 +20,7 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 |Shucked weight|continuous|g|Weight of meat|
 |Viscera weight|continuous|g|Weight of gut (after bleeding)|
 |Shell weight|continuous|g|Weight of shell after being dried|
-|Rings|integer|n/a|Rings + 1.5 gives the age in years|
+|Rings|integer|n/a|Rings + 1.5 gives the age in years|  
 
 
 
