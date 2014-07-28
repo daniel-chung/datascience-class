@@ -71,7 +71,7 @@ The results of running the `summary()` function are summarized below. As noted a
 * Categorical variables:
 
 |Sex|Count|
-|:-|---:|
+|:---|---:|
 |F|1307|
 |I|1342|
 |M|1528|
