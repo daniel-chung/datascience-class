@@ -29,7 +29,7 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 According to the documentation, the database was first owned by *the Department of Primary Industry and Fisheries, Tasmania*. In particular, *the Marine Resources Division* of *the Marine Reserach Laboratories - Taroona*. And it was donated to UC Irvine's Machine Learning Repository by Sam Waugh who was associated with *the Department of Computer Science* at *the University of Tasmania* in December 1995.
 
 It appears that the data was originally created for the following study:
-*Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone (_Haliotis_species) in Tasmania. I. Blacklip Abalone (_H. rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288)
++Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone \(_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H._ _rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288)
 
 
 ##### 3. Has your dataset been written about? What have others used it for?
