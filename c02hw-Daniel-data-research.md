@@ -22,7 +22,9 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 |Shell weight|continuous|g|Weight of shell after being dried|
 |Rings|integer|n/a|Rings + 1.5 gives the age in years|
 
-  
+
+
+
 ##### 2. What is the history of your dataset (How was it created?)
 
 
