@@ -6,6 +6,7 @@ The dataset and documentation can be found in the following links:
 * [Documentation](http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.names)
 
   
+  
 ##### 1. What are the structure and contents of your dataset? (Number of records, columns, missing values, etc.)
 
 The Abalone data contains various measurements collected on a sample of 4,177 abalone. From the documentation, we see that there are nine variables. The names of the variables along with other relevant information are summarized below:
