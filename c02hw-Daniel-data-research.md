@@ -40,6 +40,25 @@ Furthermore, the dataset has been used by many different individuals and organiz
 
 ##### 4. How do you acquire and load the dataset into R? (Include code.)
 
+Although the code for loading the dataset and performing simple statistics can be found in the file `c02hw-Daniel-abalone.R`, here is the code snippet that I used to load the dataset into R:
+
+```R
+# Pull in abalone data
+abalone.data <- read.csv("http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data", header=F)
+```
+
+Because the column names are not provided in the raw source data, I decided to create a vector of the column names. I use the vector to name the columns:
+
+```R
+# Define column names
+abalone.columns <- c("Sex","Length","Diameter","Height",
+                     "Weight.Whole","Weight.Shucked",
+                     "Weight.Viscera","Weight.Shell","Rings")
+
+# Rename variables
+colnames(abalone.data) <- c(abalone.columns)
+```
+
 
 ##### 5. What are some simple statistics describing the dataset?
 
