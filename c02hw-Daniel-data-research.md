@@ -21,22 +21,23 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 |Shucked weight|continuous|g|Weight of meat|
 |Viscera weight|continuous|g|Weight of gut (after bleeding)|
 |Shell weight|continuous|g|Weight of shell after being dried|
-|Rings|integer|n/a|Rings + 1.5 gives the age in years|  
+|Rings|integer|n/a|Rings +1.5 gives the age in years|  
 
+Note that the continuous variables (i.e., all but sex and rings) have been scaled by dividing them by 200.
 
 ##### 2. What is the history of your dataset (How was it created?)
 
 According to the documentation, the database was first owned by *the Department of Primary Industry and Fisheries, Tasmania*. In particular, *the Marine Resources Division* of *the Marine Reserach Laboratories - Taroona*. And it was donated to UC Irvine's Machine Learning Repository by Sam Waugh who was associated with *the Department of Computer Science* at *the University of Tasmania* in December 1995.
 
 It appears that the data was originally created for the following study:
-* Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone (_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H._ _rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288)
+* Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) "The Population Biology of Abalone (_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H._ _rubra_) from the North Coast and Islands of Bass Strait", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288).
 
 
 ##### 3. Has your dataset been written about? What have others used it for?
 
 Referring again to the documentation, at least a couple of academic papers have been written using this dataset:
 * Sam Waugh (1995) "Extending and benchmarking Cascade-Correlation", PhD thesis, Computer Science Department, University of Tasmania.
-* David Clark, Zoltan Schreter, Anthony Adams "A Quantitative Comparison of Dystal and Backpropagation", submitted to the Australian Conference on Neural Networks (ACNN'96).
+* David Clark, Zoltan Schreter, Anthony Adams "A Quantitative Comparison of Dystal and Backpropagation", submitted to the Australian Conference on Neural Networks (ACNN '96).
 
 Furthermore, the dataset has been used by many different individuals and organizations for exploring data science/data analysis concepts. The *Statistical Consulting Group* at the *San Diego State University* has written a [post](http://scg.sdsu.edu/linear-regression-in-r-abalone-dataset/) on performing linear regressions in R using this dataset.
 
@@ -65,9 +66,10 @@ colnames(abalone.data) <- c(abalone.columns)
 
 ##### 5. What are some simple statistics describing the dataset?
 
-The results of running the `summary()` function are summarized below. Note that the continuous variables (i.e., all but sex and rings) have been scaled by dividing them by 200.
+The results of running the `summary()` function are summarized below. As noted above, the continuous variables (i.e., all but sex and rings) have been scaled by dividing them by 200.
 
 * Categorical variables:
+
 |Sex|Count|
 |:-|---:|
 |F|1307|
@@ -75,7 +77,8 @@ The results of running the `summary()` function are summarized below. Note that 
 |M|1528|
 |Total|4177|
 
-* Numerical variables
+* Numerical variables:
+
 |Column|Minimum|Maxium|Mean|Median|
 |:-----|------:|-----:|---:|-----:|
 |Length|0.075|0.815|0.524|0.545|
@@ -86,7 +89,5 @@ The results of running the `summary()` function are summarized below. Note that 
 |Weight.Viscera|0.0005|0.7600|0.1806|0.1710|
 |Weight.Shell|0.0015|1.0050|0.2388|0.2340|
 |Rings|1.000|29.000|9.934|9.000|
-
-The measurements for length, diameter, and height seem to be scaled by some factor. The maximum values of 0.815mm, 0.65mm, and 1.13mm do not seem reasonable when measuring abalones.
 
 
