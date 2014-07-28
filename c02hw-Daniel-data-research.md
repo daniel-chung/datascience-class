@@ -5,7 +5,7 @@ The dataset and documentation can be found in the following links:
 * [Data](http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data)
 * [Documentation](http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.names)
 
-
+  
 ##### 1. What are the structure and contents of your dataset? (Number of records, columns, missing values, etc.)
 
 The Abalone data contains various measurements collected on a sample of 4,177 abalone. From the documentation, we see that there are nine variables. The names of the variables along with other relevant information are summarized below:
@@ -22,7 +22,7 @@ The Abalone data contains various measurements collected on a sample of 4,177 ab
 |Shell weight|continuous|g|Weight of shell after being dried|
 |Rings|integer|n/a|Rings + 1.5 gives the age in years|
 
-
+  
 ##### 2. What is the history of your dataset (How was it created?)
 
 
