@@ -72,22 +72,22 @@ The results of running the `summary()` function are summarized below. As noted a
 
 |Sex|Count|
 |:---|---:|
-|F|1307|
-|I|1342|
-|M|1528|
+|Female|1,307|
+|Infant|1,342|
+|Male|1,528|
 |Total|4177|
 
 * Numerical variables:
 
 |Column|Minimum|Maxium|Mean|Median|
 |:-----|------:|-----:|---:|-----:|
-|Length|0.075|0.815|0.524|0.545|
+|Length|0.0750|0.8150|0.5240|0.5450|
 |Diameter|0.0550|0.6500|0.4079|0.4250|
 |Height|0.0000|1.1300|0.1395|0.1400|
 |Weight.Whole|0.0020|2.8255|0.8287|0.7995|
 |Weight.Shucked|0.0010|1.4880|0.3594|0.3360|
 |Weight.Viscera|0.0005|0.7600|0.1806|0.1710|
 |Weight.Shell|0.0015|1.0050|0.2388|0.2340|
-|Rings|1.000|29.000|9.934|9.000|
+|Rings|1.0000|29.0000|9.9340|9.0000|
 
 
